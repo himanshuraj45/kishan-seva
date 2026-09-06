@@ -1,0 +1,34 @@
+# ============================================================
+# KisanSeva ML Service - Production Requirements (LITE)
+# ============================================================
+
+# 🌐 Web Framework 🌐
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9
+
+# 🛡️ Data Validation 🛡️
+pydantic>=2.7.0
+
+# 📊 Math/Image (Lightweight) 📊
+Pillow>=10.3.0
+numpy>=1.26.0
+scikit-learn>=1.5.0
+
+# 🌐 HTTP / Async 🌐
+httpx>=0.27.0
+aiohttp>=3.9.0
+
+# 🛠️ Utilities 🛠️
+python-dotenv>=1.0.0
+click>=8.1.0
+tqdm>=4.66.0
+loguru>=0.7.0
+
+# 🧪 Testing 🧪
+pytest>=8.2.0
+pytest-asyncio>=0.23.0
+httpx>=0.27.0   # for FastAPI TestClient
+
+# Monitoring
+sentry-sdk[fastapi,httpx]==2.19.2

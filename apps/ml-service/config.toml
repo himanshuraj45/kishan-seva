@@ -1,0 +1,90 @@
+# ============================================================
+# KisanSeva ML Service — Default Agent Configuration
+# ============================================================
+
+[server]
+host = "0.0.0.0"
+port = 8000
+reload = false
+workers = 2
+log_level = "info"
+
+[model]
+model_name = "mobilenetv3_large"
+img_size = 224
+num_classes = 38
+onnx_model_path = "training/models/kisanseva_mobilenetv3.onnx"
+tflite_model_path = "training/models/kisanseva_mobilenetv3.tflite"
+confidence_threshold = 0.65
+use_gpu = false
+
+[training]
+data_dir = "training/data/plantvillage"
+output_dir = "training/models"
+checkpoint_dir = "training/models/checkpoints"
+log_dir = "training/logs"
+batch_size = 32
+epochs = 50
+learning_rate = 0.001
+freeze_base_layers = true
+val_split = 0.15
+test_split = 0.10
+early_stopping_patience = 8
+save_best_only = true
+mixed_precision = true
+
+[agents.diagnosis]
+enabled = true
+escalation_threshold = 0.65
+max_image_size_mb = 10
+blur_threshold = 100.0
+
+OPENWEATHER_API_KEY=23affcb12106aaab93b93c7a5c7b7cae
+OPENWEATHER_BASE_URL=https://api.openweathermap.org/data/2.5
+OPENWEATHER_ONECALL_URL=https://api.openweathermap.org/data/3.0/onecall
+cache_ttl_seconds = 1800
+et0_method = "hargreaves"   # hargreaves | penman_monteith
+
+[agents.market]
+enabled = true
+agmarknet_api_key = ""     # set via env: AGMARKNET_API_KEY
+cache_ttl_seconds = 900
+transport_cost_per_km_tonne = 8.0
+max_mandis_to_rank = 20
+
+[agents.soil]
+enabled = true
+default_nutrient_source = "manual"    # manual | soil_health_card
+
+[agents.outbreak]
+enabled = true
+cluster_grid_size_km = 5.0
+min_cases_for_warning = 3
+min_cases_for_emergency = 8
+time_window_days = 7
+
+[agents.knowledge_base]
+enabled = true
+vector_store_path = "knowledge_base/embeddings/vector_store.pkl"
+embedding_model = "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2"
+top_k_results = 5
+fallback_to_tfidf = true
+
+[agents.sms_ivr]
+enabled = true
+session_ttl_minutes = 30
+max_sms_length = 160
+supported_languages = ["en", "hi", "ta", "te", "kn", "bn", "mr", "gu"]
+
+[agents.feedback]
+enabled = true
+db_path = "feedback.db"
+retraining_rejection_threshold = 0.15
+retraining_min_samples = 50
+retraining_queue_path = "training/retraining_queue.jsonl"
+
+[logging]
+level = "INFO"
+format = "json"
+output = "logs/ml_service.log"
+

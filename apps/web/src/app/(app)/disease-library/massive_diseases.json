@@ -1,0 +1,1839 @@
+[
+  {
+    "id": "ai_gen_0",
+    "name": "Leaf Rust",
+    "scientific": "Puccinia triticina",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Tillering to Grain Fill",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Orange-brown urediniospores (pustules) on upper leaf surface",
+      "Chlorosis",
+      "Necrosis in severe cases"
+    ],
+    "conditions": "Mild temperatures (15-22°C) and high humidity or dew",
+    "cycle": "Urediniospores spread by wind, infect leaves; teliospores form later, but usually not important for annual recurrence.",
+    "diagnosis": "Visual identification of characteristic orange-brown, scattered pustules on leaves.",
+    "impact": "Significant yield reduction due to reduced photosynthesis and premature defoliation.",
+    "prevention": "Resistant varieties, timely fungicide application, destruction of volunteer wheat.",
+    "organic": [
+      "Resistant varieties",
+      "Early planting/harvesting to avoid peak inoculum",
+      "Crop rotation (limited impact as spores travel far)"
+    ],
+    "chemical": [
+      "Triazole fungicides (e.g., Propiconazole, Tebuconazole)",
+      "Strobilurin fungicides (e.g., Azoxystrobin)"
+    ],
+    "ipm": "Monitoring rust development, planting resistant cultivars, applying fungicides strategically based on disease pressure and growth stage.",
+    "geography": "Worldwide, wherever wheat is grown.",
+    "differential": "Distinguished from stripe rust by scattered, circular, orange-brown pustules on leaves, not in stripes."
+  },
+  {
+    "id": "ai_gen_1",
+    "name": "Stripe Rust (Yellow Rust)",
+    "scientific": "Puccinia striiformis f. sp. tritici",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Seedling to Grain Fill",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Yellow-orange urediniospores (pustules) arranged in characteristic stripes on leaves and leaf sheaths",
+      "Chlorosis",
+      "Stunted growth"
+    ],
+    "conditions": "Cool temperatures (10-15°C) and high humidity or leaf wetness",
+    "cycle": "Urediniospores spread by wind; can overwinter in mild climates; multiple cycles occur within a season.",
+    "diagnosis": "Visual identification of yellow pustules arranged in linear stripes on leaf blades.",
+    "impact": "Can cause severe yield losses, especially in susceptible varieties under favorable conditions.",
+    "prevention": "Resistant varieties, timely fungicide application, destruction of volunteer wheat.",
+    "organic": [
+      "Resistant varieties",
+      "Early planting to escape severe infection",
+      "Crop rotation (limited impact due to wind dispersal)"
+    ],
+    "chemical": [
+      "Triazole fungicides",
+      "Strobilurin fungicides"
+    ],
+    "ipm": "Cultivar selection for resistance, disease monitoring, well-timed fungicide applications, especially in cooler regions.",
+    "geography": "Cooler wheat-growing regions worldwide, expanding with climate change.",
+    "differential": "Key diagnostic is yellow pustules forming stripes, unlike the scattered orange-brown pustules of leaf rust."
+  },
+  {
+    "id": "ai_gen_2",
+    "name": "Stem Rust (Black Rust)",
+    "scientific": "Puccinia graminis f. sp. tritici",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Late Tillering to Grain Fill",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Large, brick-red, elongated pustules (urediniospores) erupting from epidermis of stems, leaf sheaths, and sometimes leaves",
+      "Ragged appearance of torn epidermis around pustules",
+      "Black teliospores later in season"
+    ],
+    "conditions": "Warm temperatures (20-30°C) and high humidity/dew for spore germination",
+    "cycle": "Urediniospores are wind-borne; teliospores form on wheat, overwinter, then infect barberry (alternate host) to produce aeciospores that infect wheat.",
+    "diagnosis": "Characteristic brick-red, large pustules that rupture the epidermis, primarily on stems and leaf sheaths.",
+    "impact": "Devastating yield losses (up to 70% or more), weakened stems leading to lodging, shriveled grain.",
+    "prevention": "Resistant varieties (especially critical), eradication of alternate host (barberry), fungicide application.",
+    "organic": [
+      "Resistant varieties",
+      "Removal of alternate host (barberry)",
+      "Timely sowing to allow maturity before peak inoculum"
+    ],
+    "chemical": [
+      "Triazole fungicides (e.g., Epoxiconazole, Tebuconazole)"
+    ],
+    "ipm": "Deployment of robust genetic resistance, monitoring for new rust races, targeted fungicide application in high-risk areas.",
+    "geography": "Historically global; significant threat in East Africa (Ug99 race).",
+    "differential": "Distinguished by large, brick-red, elongated pustules on stems and leaf sheaths, rupturing the epidermis, unlike leaf or stripe rusts."
+  },
+  {
+    "id": "ai_gen_3",
+    "name": "Powdery Mildew",
+    "scientific": "Blumeria graminis f. sp. tritici",
+    "crop": "Wheat",
+    "severity": "Moderate to High",
+    "cause": "Fungal",
+    "growth_stage": "Seedling to Heading",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "White, powdery fungal growth (mycelia and conidia) on leaves, stems, and heads",
+      "Chlorosis and necrosis beneath the mildew",
+      "Stunted growth in severe cases"
+    ],
+    "conditions": "Cool to moderate temperatures (10-20°C), high humidity but no free water, dense canopies",
+    "cycle": "Conidia spread by wind, germinate on host surface; chasmothecia (sexual spores) overwinter on residue.",
+    "diagnosis": "Presence of distinctive white, powdery patches on plant surfaces, especially older leaves.",
+    "impact": "Reduced photosynthesis, premature senescence, yield losses primarily from reduced grain fill.",
+    "prevention": "Resistant varieties, crop rotation, proper fertilization to avoid excessive nitrogen, fungicide application.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation",
+      "Good air circulation",
+      "Application of sulfur or potassium bicarbonate solutions"
+    ],
+    "chemical": [
+      "Triazole fungicides",
+      "Strobilurin fungicides",
+      "SDHI fungicides"
+    ],
+    "ipm": "Using resistant varieties, optimizing plant density, balancing nitrogen fertility, scouting for early symptoms, applying fungicides when thresholds are met.",
+    "geography": "Worldwide, especially in temperate regions with intensive wheat cultivation.",
+    "differential": "Unmistakable white, powdery appearance on leaf surfaces. Other diseases do not present with this distinct powdery growth."
+  },
+  {
+    "id": "ai_gen_4",
+    "name": "Septoria Tritici Blotch",
+    "scientific": "Zymoseptoria tritici (Mycosphaerella graminicola)",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Tillering to Grain Fill",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Irregular, light brown lesions with dark brown or purple borders on leaves",
+      "Small, black, pinhead-sized pycnidia visible within lesions",
+      "Yellowing and necrosis of infected tissue"
+    ],
+    "conditions": "Cool (15-20°C), wet weather with prolonged leaf wetness",
+    "cycle": "Pycnidiospores spread by splashing rain from infected residue; ascospores are wind-borne from pseudothecia.",
+    "diagnosis": "Characteristic lesions with visible black pycnidia embedded in necrotic tissue, primarily on lower leaves moving upwards.",
+    "impact": "Significant yield reduction due to extensive leaf necrosis, reducing photosynthetic area.",
+    "prevention": "Resistant varieties, crop rotation, tillage to bury residue, fungicide application.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation with non-host crops",
+      "Stubble management (burying residue)",
+      "Optimizing plant spacing"
+    ],
+    "chemical": [
+      "Triazole fungicides",
+      "Strobilurin fungicides",
+      "Chlorothalonil (multi-site fungicide)"
+    ],
+    "ipm": "Utilizing resistant cultivars, practicing crop rotation, managing wheat stubble, monitoring disease progression and applying fungicides preventatively or early in the epidemic.",
+    "geography": "Major problem in cool, wet wheat-growing regions worldwide, particularly Europe and North America.",
+    "differential": "Distinguished by brown lesions containing visible black pycnidia. Lesions are more irregular than rust pustules."
+  },
+  {
+    "id": "ai_gen_5",
+    "name": "Fusarium Head Blight (Scab)",
+    "scientific": "Fusarium graminearum (Gibberella zeae)",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Flowering to Soft Dough",
+    "region": "Global",
+    "affected_hosts": "Many",
+    "symptoms": [
+      "Premature bleaching of florets or entire spikelets on the head",
+      "Salmon-pink or orange spore masses on glumes",
+      "Shrunken, chalky white kernels (tombstones)",
+      "Mycotoxin contamination (DON)"
+    ],
+    "conditions": "Warm (25-30°C), humid weather with prolonged rainfall during flowering",
+    "cycle": "Spores (ascospores and conidia) produced on infected crop residue (especially corn) spread by wind and splashing rain to wheat heads during flowering.",
+    "diagnosis": "Bleached spikelets or heads with pinkish fungal growth, especially during wet conditions at flowering. Presence of tombstone kernels.",
+    "impact": "Severe yield losses, reduced grain quality, and contamination with mycotoxins (e.g., Deoxynivalenol - DON), making grain unfit for consumption.",
+    "prevention": "Resistant varieties (partial), crop rotation (avoiding corn before wheat), residue management (tillage), fungicide application at flowering.",
+    "organic": [
+      "Partially resistant varieties",
+      "Crop rotation (avoiding corn and wheat in sequence)",
+      "Tillage to bury infected residue",
+      "Biological control agents (e.g., some Trichoderma spp.)"
+    ],
+    "chemical": [
+      "Triazole fungicides (e.g., Prosaro, Caramba) applied at early flowering (anthesis)"
+    ],
+    "ipm": "Integration of resistant varieties, crop rotation to reduce inoculum, strategic tillage, and well-timed fungicide applications at anthesis, along with post-harvest testing for mycotoxins.",
+    "geography": "Worldwide, particularly in regions with corn-wheat rotations and humid conditions during flowering.",
+    "differential": "Bleached spikelets, often with pinkish fungal growth, are characteristic. Other head blights are typically less common or lack the pink fungal growth and mycotoxin risk."
+  },
+  {
+    "id": "ai_gen_6",
+    "name": "Loose Smut",
+    "scientific": "Ustilago tritici",
+    "crop": "Wheat",
+    "severity": "Moderate",
+    "cause": "Fungal",
+    "growth_stage": "Heading",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Entire wheat head replaced by a mass of black, sooty spores (teliospores)",
+      "Spores eventually dispersed by wind, leaving only the bare rachis (central stalk) of the head"
+    ],
+    "conditions": "Cool temperatures and high humidity during flowering when spores infect developing kernels",
+    "cycle": "Spores from infected heads infect florets of healthy plants during flowering. Mycelium grows systemically in the developing embryo; infected seeds appear healthy. The fungus grows with the plant and replaces the head with spores next season.",
+    "diagnosis": "Appearance of black, sooty heads that disintegrate, leaving bare rachis.",
+    "impact": "Direct yield loss equivalent to the number of smutted heads. Generally not as destructive as rusts or FHB.",
+    "prevention": "Use of certified, fungicide-treated seed; planting resistant varieties (less common for smut).",
+    "organic": [
+      "Use of smut-free seed",
+      "Hot water treatment of seeds (labor-intensive and risky)"
+    ],
+    "chemical": [
+      "Systemic seed treatment fungicides (e.g., carboxin, difenoconazole)"
+    ],
+    "ipm": "Primary strategy is using certified, fungicide-treated seeds. Field scouting to identify infected plants and remove them before spores disperse.",
+    "geography": "Worldwide, wherever wheat is grown, especially where seed treatment isn't consistently used.",
+    "differential": "Distinctive complete replacement of the wheat head with black, sooty spores, eventually leaving a bare rachis, unlike other head diseases."
+  },
+  {
+    "id": "ai_gen_7",
+    "name": "Take-all",
+    "scientific": "Gaeumannomyces graminis var. tritici",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Tillering to Grain Fill",
+    "region": "Global",
+    "affected_hosts": "Many",
+    "symptoms": [
+      "Premature death of plants (whiteheads) in patches",
+      "Stunted growth and poor tillering",
+      "Blackening of roots and lower stem (subcrown internode) due to fungal mycelium",
+      "Easy to pull up plants due to rotted roots"
+    ],
+    "conditions": "Alkaline or neutral soils, low fertility (especially manganese deficiency), continuous wheat or susceptible hosts, moist soil",
+    "cycle": "Fungus survives on infected crop residue in soil; infects roots of new plants; spreads from root to root.",
+    "diagnosis": "Patches of stunted, dead plants (whiteheads), characteristic blackening of roots and lower stem, easy to pull up plants.",
+    "impact": "Significant yield losses in affected patches, poor grain fill, reduced quality.",
+    "prevention": "Crop rotation (with non-host crops like oats or broadleafs), proper soil fertility (especially manganese), avoiding liming acid soils, controlling grassy weeds.",
+    "organic": [
+      "Crop rotation with non-host crops (e.g., oats, legumes)",
+      "Balancing soil nutrients (especially manganese)",
+      "Controlling grassy weeds",
+      "Using disease-suppressive soils (e.g., with specific microbial activity)"
+    ],
+    "chemical": [
+      "Fungicide seed treatments (e.g., fluquinconazole) have some efficacy, but cultural practices are primary."
+    ],
+    "ipm": "Long-term crop rotation with non-host crops, maintaining balanced soil fertility and pH, controlling grassy weeds, good seedbed preparation.",
+    "geography": "Worldwide, especially in intensive wheat-growing areas with monoculture or short rotations.",
+    "differential": "Distinctive blackening of roots and subcrown internode, leading to whiteheads and patches of dead plants, makes it unique from other root rots or vascular wilts."
+  },
+  {
+    "id": "ai_gen_8",
+    "name": "Wheat Streak Mosaic Virus",
+    "scientific": "Wheat streak mosaic virus",
+    "crop": "Wheat",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "Seedling to Heading",
+    "region": "North America (Great Plains), other wheat regions",
+    "affected_hosts": "Many",
+    "symptoms": [
+      "Yellow streaking or mosaic pattern on leaves, often in discontinuous dashes",
+      "Stunting of plants",
+      "Reduced tillering",
+      "Sterile heads or shriveled grain"
+    ],
+    "conditions": "Mild winters allowing vector (wheat curl mite) to survive on volunteer wheat or other hosts, warm and dry conditions promoting mite activity",
+    "cycle": "Transmitted by the wheat curl mite (Aceria tosichella), which acquires the virus from infected volunteer wheat or alternative hosts and carries it to healthy plants.",
+    "diagnosis": "Leaf streaking/mosaic, stunting. Confirmation via ELISA or PCR in a lab.",
+    "impact": "Can cause severe yield losses (up to 100% in early infections) and significant stunting, especially in susceptible varieties.",
+    "prevention": "Controlling volunteer wheat (wheat-free period), planting resistant varieties, proper planting date (avoid early planting in infested areas).",
+    "organic": [
+      "Controlling volunteer wheat (most effective organic method)",
+      "Planting resistant varieties (if available and not GM)",
+      "Optimizing planting dates"
+    ],
+    "chemical": [
+      "No direct chemical control for the virus. Acaricides for mites are generally not effective or economical for WSMV prevention."
+    ],
+    "ipm": "Eliminating volunteer wheat and grassy hosts (critical), planting resistant wheat varieties, delaying fall planting to avoid mite populations, managing irrigation.",
+    "geography": "Primarily in arid and semi-arid wheat-growing regions, especially the Great Plains of North America.",
+    "differential": "Distinctive yellow streaking/mosaic on leaves, often more pronounced in cooler temperatures. Unlike nutrient deficiencies or herbicide damage, the streaking is irregular and follows veins."
+  },
+  {
+    "id": "ai_gen_9",
+    "name": "Rice Blast",
+    "scientific": "Magnaporthe oryzae",
+    "crop": "Rice",
+    "severity": "Very High",
+    "cause": "Fungal",
+    "growth_stage": "All stages",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Diamond-shaped lesions on leaves",
+      "Neck rot",
+      "Node blast",
+      "Panicle blast",
+      "Brown lesions on leaf collars"
+    ],
+    "conditions": "Cool temperatures (20-28°C), high humidity, prolonged leaf wetness, nitrogen overuse",
+    "cycle": "Spores dispersed by wind and rain, infects various parts of the plant, can survive on crop residues",
+    "diagnosis": "Visual inspection of characteristic lesions, microscopic examination of spores",
+    "impact": "Up to 100% yield loss under severe conditions, reduced grain quality",
+    "prevention": "Resistant varieties, proper nitrogen management, water management",
+    "organic": [
+      "Trichoderma spp. based biofungicides",
+      "Seed treatment with antagonistic microbes",
+      "Proper plant spacing"
+    ],
+    "chemical": [
+      "Triazoles (e.g., tricyclazole)",
+      "Strobilurins (e.g., azoxystrobin)",
+      "Carbamates"
+    ],
+    "ipm": "Resistant varieties, balanced fertilization, water management, timely fungicide application, residue management",
+    "geography": "Major rice-growing regions worldwide, particularly in upland and rainfed areas",
+    "differential": "Brown Spot, narrow brown leaf spot, physiological leaf spots"
+  },
+  {
+    "id": "ai_gen_10",
+    "name": "Bacterial Blight",
+    "scientific": "Xanthomonas oryzae pv. oryzae",
+    "crop": "Rice",
+    "severity": "High",
+    "cause": "Bacterial",
+    "growth_stage": "Seedling, Vegetative, Flowering",
+    "region": "Asia, Africa, Americas",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Water-soaked streaks on leaf margins that turn yellow-white and expand",
+      "Kresek (wilting of seedlings)",
+      "Blighted leaves",
+      "Yellowing of flag leaf"
+    ],
+    "conditions": "High humidity, warm temperatures (25-30°C), strong winds, rain, deep water, nitrogen overuse",
+    "cycle": "Bacteria enter through wounds or natural openings, spread through water and rain, survive in infected residues and seeds",
+    "diagnosis": "Visual symptoms, bacterial ooze test (milky exudate), isolation on selective media",
+    "impact": "Significant yield losses (up to 50% or more), especially with Kresek",
+    "prevention": "Resistant varieties, good drainage, balanced fertilization, seed treatment",
+    "organic": [
+      "Use of antagonistic bacteria (e.g., Pseudomonas fluorescens)",
+      "Hot water seed treatment",
+      "Crop rotation"
+    ],
+    "chemical": [
+      "Copper-based compounds (e.g., copper oxychloride)",
+      "Antibiotics (e.g., streptomycin, restricted use)"
+    ],
+    "ipm": "Resistant varieties, balanced nitrogen, proper water management, sanitation, seed treatment",
+    "geography": "Widespread in tropical and subtropical rice-growing regions, especially in Asia",
+    "differential": "Bacterial leaf streak, nutrient deficiencies, physiological leaf diseases"
+  },
+  {
+    "id": "ai_gen_11",
+    "name": "Sheath Blight",
+    "scientific": "Rhizoctonia solani",
+    "crop": "Rice",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative, Flowering",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Oval or elliptical, water-soaked lesions on leaf sheaths near water line",
+      "Lesions expand upward, becoming gray-green with purplish-brown margins",
+      "Presence of sclerotia (small, dark, irregular bodies)"
+    ],
+    "conditions": "High humidity, warm temperatures (28-32°C), high plant density, high nitrogen fertilization",
+    "cycle": "Sclerotia survive in soil and on plant debris, float on water, infect sheaths at water line",
+    "diagnosis": "Visual inspection of characteristic lesions and sclerotia, isolation on culture media",
+    "impact": "Reduced grain filling, lodging, significant yield losses (10-25%)",
+    "prevention": "Resistant varieties, proper spacing, balanced fertilization, water management",
+    "organic": [
+      "Trichoderma spp. based biofungicides",
+      "Soil solarization",
+      "Biocontrol agents (e.g., Pseudomonas spp.)"
+    ],
+    "chemical": [
+      "Triazoles (e.g., propiconazole)",
+      "Strobilurins (e.g., azoxystrobin)",
+      "Validamycin"
+    ],
+    "ipm": "Resistant varieties, optimum plant density, balanced NPK, timely fungicide application, residue management",
+    "geography": "Prevalent in most rice-producing areas, especially in intensively cultivated fields",
+    "differential": "Stem Rot, narrow brown leaf spot (though symptoms are quite distinct)"
+  },
+  {
+    "id": "ai_gen_12",
+    "name": "Brown Spot",
+    "scientific": "Bipolaris oryzae",
+    "crop": "Rice",
+    "severity": "Medium",
+    "cause": "Fungal",
+    "growth_stage": "All stages",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Oval, brown spots with a yellow halo on leaves, often eye-shaped",
+      "Spots on glumes, producing 'pecky rice'",
+      "Reduced seedling vigor"
+    ],
+    "conditions": "High humidity, warm temperatures, poor soil fertility (especially low potassium, calcium, magnesium), water stress",
+    "cycle": "Spores dispersed by wind and rain, survive on seeds and crop debris",
+    "diagnosis": "Visual inspection of leaf and glume spots, microscopic examination of spores",
+    "impact": "Reduced yield, poor grain quality (pecky rice), increased milling losses",
+    "prevention": "Balanced fertilization (especially K), resistant varieties, good seed quality",
+    "organic": [
+      "Seed treatment with biofungicides",
+      "Improve soil health with organic amendments",
+      "Proper drainage"
+    ],
+    "chemical": [
+      "Foliar fungicides (e.g., mancozeb, propiconazole)",
+      "Seed treatments"
+    ],
+    "ipm": "Nutrient management (K, Ca, Mg, Si), resistant varieties, seed treatment, sanitation",
+    "geography": "Widespread, particularly problematic in nutrient-deficient soils and stressed crops",
+    "differential": "Rice Blast, Narrow Brown Spot, physiological disorders"
+  },
+  {
+    "id": "ai_gen_13",
+    "name": "Tungro Virus",
+    "scientific": "Rice Tungro Bacilliform Virus (RTBV) and Rice Tungro Spherical Virus (RTSV)",
+    "crop": "Rice",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "Seedling, Vegetative",
+    "region": "Asia",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Stunting",
+      "Yellow-orange discoloration of younger leaves",
+      "Reduced tillering",
+      "Twisted leaves",
+      "Sterile panicles"
+    ],
+    "conditions": "High population of green leafhoppers (vector), continuous cropping of rice",
+    "cycle": "Transmitted by green leafhoppers (Nephotettix virescens, N. nigropictus) in a semi-persistent manner",
+    "diagnosis": "Visual symptoms, ELISA test, PCR for virus detection",
+    "impact": "Significant yield losses (up to 100% in severe early infections), poor grain quality",
+    "prevention": "Resistant varieties, synchronized planting, control of leafhopper vector, rouging infected plants",
+    "organic": [
+      "Use of natural enemies of leafhoppers",
+      "Botanical insecticides (neem oil)",
+      "Barrier crops"
+    ],
+    "chemical": [
+      "Systemic insecticides for leafhopper control (e.g., neonicotinoids)",
+      "Insecticide seed treatments"
+    ],
+    "ipm": "Resistant varieties, synchronized planting (fallow period), vector control, removal of volunteer rice and weeds",
+    "geography": "Mainly Southeast Asia and parts of South Asia",
+    "differential": "Nutrient deficiencies (N, P, K), other viral diseases (e.g., Rice Yellow Dwarf), herbicide damage"
+  },
+  {
+    "id": "ai_gen_14",
+    "name": "Bacterial Panicle Blight",
+    "scientific": "Burkholderia glumae, Burkholderia gladioli",
+    "crop": "Rice",
+    "severity": "Medium",
+    "cause": "Bacterial",
+    "growth_stage": "Flowering, Grain Filling",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Rotting of spikelets (brown to black discoloration) starting from panicle base",
+      "Sterility or abortion of grains",
+      "Green grains turn dark brown or purple",
+      "Presence of pale green to light brown lesions on the flag leaf sheath"
+    ],
+    "conditions": "High temperatures (above 30°C) and high humidity during flowering",
+    "cycle": "Seed-borne, transmitted by rain and wind, bacteria can survive in soil and plant residues",
+    "diagnosis": "Visual symptoms on panicles, isolation on selective media, pathogenicity test",
+    "impact": "Reduced grain yield, decreased milling quality, seedling blight",
+    "prevention": "Healthy seeds, resistant varieties, proper water management, avoid excessive nitrogen",
+    "organic": [
+      "Hot water seed treatment",
+      "Use of antagonistic bacteria",
+      "Crop rotation"
+    ],
+    "chemical": [
+      "Copper-based compounds",
+      "Antibiotics (restricted use)"
+    ],
+    "ipm": "Healthy certified seeds, resistant varieties, balanced fertilization, water management, sanitation",
+    "geography": "Increasingly widespread in many rice-growing areas globally, including Asia and the Americas",
+    "differential": "Neck blast, False Smut, physiological blanking"
+  },
+  {
+    "id": "ai_gen_15",
+    "name": "False Smut",
+    "scientific": "Ustilaginoidea virens",
+    "crop": "Rice",
+    "severity": "Low-Medium",
+    "cause": "Fungal",
+    "growth_stage": "Flowering, Grain Filling",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Individual grains transform into large, yellowish-green to greenish-black smut balls (pseudomorphs)",
+      "Smut balls filled with powdery fungal spores"
+    ],
+    "conditions": "High relative humidity (above 90%) and high rainfall during panicle emergence and flowering, moderate temperatures (25-30°C), excessive nitrogen",
+    "cycle": "Spores overwinter in soil or on crop debris, infect florets before or at flowering",
+    "diagnosis": "Visual inspection of characteristic smut balls on individual grains",
+    "impact": "Reduced grain yield due to replacement of grains, reduced grain quality, potential for mycotoxin production",
+    "prevention": "Resistant varieties, optimal nitrogen fertilization, seed treatment",
+    "organic": [
+      "Seed treatment with biofungicides (e.g., Pseudomonas fluorescens)",
+      "Proper plant spacing",
+      "Crop rotation"
+    ],
+    "chemical": [
+      "Triazoles (e.g., propiconazole) applied at booting to heading stages"
+    ],
+    "ipm": "Resistant varieties, balanced nitrogen, proper irrigation, seed treatment, removal of infected panicles",
+    "geography": "Widespread in all rice-growing regions, especially in areas with high humidity during flowering",
+    "differential": "True Smut (less common, usually entire panicle affected), Bacterial Panicle Blight"
+  },
+  {
+    "id": "ai_gen_16",
+    "name": "Bakanae Disease",
+    "scientific": "Gibberella fujikuroi",
+    "crop": "Rice",
+    "severity": "Medium-High",
+    "cause": "Fungal",
+    "growth_stage": "Seedling, Vegetative",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Abnormal elongation of seedlings (often pale yellow)",
+      "Seedlings may die before or after transplanting",
+      "Presence of adventitious roots near the water line",
+      "Diseased plants may appear stunted later, with discolored flag leaves and sterile panicles"
+    ],
+    "conditions": "Warm and humid conditions, infected seeds, soil-borne inoculum",
+    "cycle": "Primarily seed-borne, can be soil-borne, spores are spread by wind and water",
+    "diagnosis": "Visual symptoms of elongated seedlings, isolation on culture media",
+    "impact": "High seedling mortality, reduced plant stand, yield reduction",
+    "prevention": "Healthy certified seeds, seed treatment, proper sanitation",
+    "organic": [
+      "Hot water seed treatment",
+      "Biological seed treatments (e.g., Trichoderma spp.)"
+    ],
+    "chemical": [
+      "Fungicide seed treatments (e.g., prochloraz, triflumizole)"
+    ],
+    "ipm": "Certified healthy seeds, seed treatment, resistant varieties, removal of infected seedlings",
+    "geography": "Widespread in rice-growing regions, particularly in nurseries and direct-seeded fields",
+    "differential": "Nutrient deficiency, water stress, other seedling diseases"
+  },
+  {
+    "id": "ai_gen_17",
+    "name": "Stem Rot",
+    "scientific": "Magnaporthe salvinii",
+    "crop": "Rice",
+    "severity": "Medium",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative, Flowering",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Small, irregular black lesions on outer leaf sheaths near water line",
+      "Lesions enlarge and penetrate inner sheaths and stem",
+      "Rotting of stem, lodging, shriveled grains",
+      "Presence of black sclerotia inside the culm"
+    ],
+    "conditions": "Warm temperatures (25-30°C), continuous flooding, high nitrogen fertilization, poor drainage",
+    "cycle": "Sclerotia survive in soil and plant debris, float on water, infect basal sheaths",
+    "diagnosis": "Visual inspection of stem lesions and sclerotia inside culms, isolation on culture media",
+    "impact": "Lodging, reduced grain filling, significant yield losses in severe cases",
+    "prevention": "Resistant varieties, proper water management (intermittent drying), balanced fertilization, residue management",
+    "organic": [
+      "Biological control agents (e.g., Trichoderma spp.)",
+      "Removal of infected stubble",
+      "Crop rotation"
+    ],
+    "chemical": [
+      "Foliar fungicides (e.g., carbendazim, propiconazole)",
+      "Seed treatments"
+    ],
+    "ipm": "Resistant varieties, water management (mid-season drainage), balanced NPK, residue burning/removal, fungicide application",
+    "geography": "Common in irrigated rice systems, especially in areas with poor drainage and high organic matter",
+    "differential": "Sheath Blight, other causes of lodging"
+  },
+  {
+    "id": "ai_gen_18",
+    "name": "Downy Mildew",
+    "scientific": "Peronospora destructor",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Oomycete (Fungal-like)",
+    "growth_stage": "Vegetative",
+    "region": "Worldwide",
+    "affected_hosts": "3",
+    "symptoms": [
+      "Pale green to yellow lesions on leaves",
+      "Water-soaked streaks",
+      "Purplish fuzzy growth on lesions in damp conditions",
+      "Leaf dieback starting from tips",
+      "Stunted growth"
+    ],
+    "conditions": "Cool (10-18°C), moist conditions, prolonged leaf wetness, high humidity.",
+    "cycle": "Pathogen overwinters as oospores in soil or mycelium in infected bulbs/plant debris. Spores are spread by wind and rain.",
+    "diagnosis": "Visual inspection for characteristic purplish growth; microscopic examination of spores.",
+    "impact": "Significant yield losses, reduced bulb size, poor storage quality.",
+    "prevention": "Use resistant varieties, crop rotation, proper spacing for air circulation, avoid overhead irrigation late in the day.",
+    "organic": [
+      "Remove infected plants",
+      "Improve air circulation",
+      "Copper-based fungicides",
+      "Neem oil"
+    ],
+    "chemical": [
+      "Mancozeb",
+      "Azoxystrobin",
+      "Propamocarb",
+      "Fluazinam"
+    ],
+    "ipm": "Resistant varieties, good sanitation, monitoring, timely application of fungicides based on weather forecasts.",
+    "geography": "Cosmopolitan, particularly problematic in humid, cool regions.",
+    "differential": "Botrytis leaf blight, physiological leaf tip burn."
+  },
+  {
+    "id": "ai_gen_19",
+    "name": "Purple Blotch",
+    "scientific": "Alternaria porri",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative",
+    "region": "Worldwide",
+    "affected_hosts": "4",
+    "symptoms": [
+      "Small, water-soaked lesions on leaves and flower stalks",
+      "Lesions enlarge, become purplish with a yellow halo",
+      "Concentric rings often visible within older lesions",
+      "Leaf dieback",
+      "Neck rot in stored bulbs"
+    ],
+    "conditions": "Warm (21-30°C), humid conditions, prolonged leaf wetness (rain, dew).",
+    "cycle": "Overwinters in crop debris. Spores are wind-borne. Infections occur through wounds or natural openings.",
+    "diagnosis": "Characteristic purple lesions with concentric rings; microscopic identification of Alternaria conidia.",
+    "impact": "Reduced photosynthesis, premature leaf senescence, yield reduction, storage losses.",
+    "prevention": "Crop rotation, use disease-free seed, proper plant spacing, balanced fertilization.",
+    "organic": [
+      "Remove infected debris",
+      "Improve air circulation",
+      "Copper fungicides",
+      "Neem oil"
+    ],
+    "chemical": [
+      "Chlorothalonil",
+      "Mancozeb",
+      "Pyraclostrobin",
+      "Azoxystrobin"
+    ],
+    "ipm": "Resistant varieties, crop rotation, sanitation, targeted fungicide applications during favorable weather.",
+    "geography": "Widely distributed, more severe in subtropical and tropical regions.",
+    "differential": "Stemphylium leaf blight."
+  },
+  {
+    "id": "ai_gen_20",
+    "name": "Botrytis Leaf Blight (Blast)",
+    "scientific": "Botrytis squamosa",
+    "crop": "Onion",
+    "severity": "Medium",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative",
+    "region": "Worldwide",
+    "affected_hosts": "3",
+    "symptoms": [
+      "Small, oval, water-soaked lesions with a pale green halo",
+      "Lesions turn white to light tan and collapse",
+      "Tips of leaves die back (tip burn)",
+      "Widespread leaf dieback in severe cases"
+    ],
+    "conditions": "Cool (15-20°C), moist conditions, prolonged leaf wetness for 6-12 hours.",
+    "cycle": "Overwinters as sclerotia or mycelium in plant debris. Spores are spread by wind and splashing water.",
+    "diagnosis": "Characteristic small, discrete lesions; microscopic identification of Botrytis conidia.",
+    "impact": "Reduced photosynthetic area, premature defoliation, smaller bulbs, reduced yield.",
+    "prevention": "Crop rotation, good sanitation, proper plant spacing, control weeds, avoid excessive nitrogen.",
+    "organic": [
+      "Remove debris",
+      "Improve air circulation",
+      "Compost teas",
+      "Organic-approved copper or sulfur sprays"
+    ],
+    "chemical": [
+      "Chlorothalonil",
+      "Iprodione",
+      "Fluazinam",
+      "Boscalid"
+    ],
+    "ipm": "Monitoring weather conditions, targeted fungicide applications when disease risk is high, cultural practices.",
+    "geography": "Common in temperate onion-growing regions.",
+    "differential": "Downy mildew, Thrips feeding."
+  },
+  {
+    "id": "ai_gen_21",
+    "name": "Pink Root",
+    "scientific": "Phoma terrestris",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative",
+    "region": "Worldwide",
+    "affected_hosts": "4",
+    "symptoms": [
+      "Roots turn light pink, then darken to red, purple, and finally brown/black",
+      "Infected roots shrivel and die",
+      "New roots may emerge and then also become infected",
+      "Stunted growth",
+      "Premature yellowing and dieback of leaves"
+    ],
+    "conditions": "Warm (24-28°C), dry soil conditions, continuous onion cultivation.",
+    "cycle": "Survives indefinitely in soil as chlamydospores or mycelium on plant debris. Spores infect roots directly.",
+    "diagnosis": "Characteristic pink to purple discoloration of roots; microscopic examination for fungal structures.",
+    "impact": "Severe yield losses, reduced bulb size and quality, plants may wilt and die prematurely.",
+    "prevention": "Long crop rotations (4-6 years), use resistant varieties, soil solarization, use disease-free transplants.",
+    "organic": [
+      "Long crop rotations",
+      "Soil solarization",
+      "Improve soil health",
+      "Resistant varieties"
+    ],
+    "chemical": [
+      "Fumigants (pre-plant)",
+      "Some triazole fungicides"
+    ],
+    "ipm": "Long crop rotation, resistant varieties, soil preparation, good water management.",
+    "geography": "Present in most onion-growing regions, especially in sandy soils.",
+    "differential": "Fusarium basal rot."
+  },
+  {
+    "id": "ai_gen_22",
+    "name": "Smut",
+    "scientific": "Urocystis cepulae",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Seedling",
+    "region": "Temperate",
+    "affected_hosts": "3",
+    "symptoms": [
+      "Dark, elongated streaks or blisters (sori) on cotyledons and young leaves",
+      "Sori rupture, releasing black powdery masses of spores",
+      "Infected plants are often stunted, distorted, and may die prematurely"
+    ],
+    "conditions": "Cool (10-20°C) soil temperatures during germination and early seedling growth.",
+    "cycle": "Overwinters as teliospores in soil for many years. Spores germinate in cool, moist soil and infect seedlings.",
+    "diagnosis": "Characteristic black streaks and powdery spore masses on young leaves.",
+    "impact": "Significant stand loss in direct-seeded onions, reduced vigor of surviving plants.",
+    "prevention": "Use fungicide-treated seed, transplanting (as transplants are resistant), long crop rotations.",
+    "organic": [
+      "Long crop rotations",
+      "Use transplants instead of direct seeding",
+      "Soil solarization"
+    ],
+    "chemical": [
+      "Thiram (seed treatment)",
+      "Carboxin (seed treatment)"
+    ],
+    "ipm": "Primary strategy is seed treatment or transplanting. Crop rotation where direct seeding is practiced.",
+    "geography": "Mainly in temperate regions where onions are direct-seeded.",
+    "differential": "Other seedling damping-off diseases."
+  },
+  {
+    "id": "ai_gen_23",
+    "name": "White Rot",
+    "scientific": "Sclerotium cepivorum",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Bulbing",
+    "region": "Worldwide",
+    "affected_hosts": "5",
+    "symptoms": [
+      "Yellowing and wilting of older leaves",
+      "Leaves die back from the tip",
+      "White, fluffy fungal growth (mycelium) on the basal plate and roots",
+      "Small, black, spherical structures (sclerotia) resembling poppy seeds",
+      "Soft, watery rot of the bulb"
+    ],
+    "conditions": "Cool (10-20°C) soil temperatures and high soil moisture.",
+    "cycle": "Overwinters as sclerotia in the soil for many years. Sclerotia germinate in response to root exudates from Allium species.",
+    "diagnosis": "Presence of white mycelial growth and black sclerotia on infected bulbs and roots; distinct garlic-like odor.",
+    "impact": "Complete crop loss in severe cases, renders land unusable for Allium crops for extended periods.",
+    "prevention": "Strict sanitation, long crop rotations (10-15 years), use disease-free plant material.",
+    "organic": [
+      "Strict sanitation",
+      "Long rotations",
+      "Biofumigation with Brassica cover crops",
+      "Soil solarization"
+    ],
+    "chemical": [
+      "Tebuconazole (seed/furrow treatment)",
+      "Fluazinam (seed/furrow treatment)"
+    ],
+    "ipm": "Extreme caution with soil movement, crop rotation, soil treatments. Eradication is very difficult.",
+    "geography": "Present worldwide, particularly problematic in areas with intensive Allium cultivation.",
+    "differential": "Fusarium basal rot."
+  },
+  {
+    "id": "ai_gen_24",
+    "name": "Fusarium Basal Rot",
+    "scientific": "Fusarium oxysporum f. sp. cepae",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Bulbing",
+    "region": "Worldwide",
+    "affected_hosts": "4",
+    "symptoms": [
+      "Yellowing and wilting of leaves, starting from older leaves",
+      "Root decay and softening of the basal plate",
+      "White to pinkish-purple mycelial growth on the basal plate",
+      "Internal discoloration of the bulb (brownish-purple streaks)",
+      "Water-soaked decay of scales"
+    ],
+    "conditions": "Warm (25-30°C) soil temperatures and high soil moisture.",
+    "cycle": "Survives in soil as chlamydospores and on plant debris. Infects roots and basal plate, often through wounds.",
+    "diagnosis": "Softening and decay of the basal plate, internal discoloration of the bulb; laboratory isolation for confirmation.",
+    "impact": "Significant yield losses in the field and during storage, reduced marketability.",
+    "prevention": "Use resistant varieties, crop rotation (at least 3-4 years), avoid wounding bulbs, good sanitation, proper curing and storage.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation",
+      "Improve soil drainage",
+      "Biofumigation"
+    ],
+    "chemical": [
+      "Pre-plant soil fumigation",
+      "Fludioxonil (seed treatment)"
+    ],
+    "ipm": "Resistant varieties, crop rotation, sanitation, proper field preparation and post-harvest handling.",
+    "geography": "Ubiquitous in onion-growing regions globally, particularly problematic in warmer climates.",
+    "differential": "White rot, Pink root."
+  },
+  {
+    "id": "ai_gen_25",
+    "name": "Neck Rot",
+    "scientific": "Botrytis allii",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Post-harvest",
+    "region": "Worldwide",
+    "affected_hosts": "3",
+    "symptoms": [
+      "Softening of the neck tissue during storage",
+      "Water-soaked decay that progresses downwards into the bulb scales",
+      "Gray mold (fuzzy mycelium) may be visible",
+      "Small, black, flattened sclerotia may develop on outer scales",
+      "Infected bulbs eventually shrivel and rot completely"
+    ],
+    "conditions": "High humidity, improper curing, mechanical damage to the neck, wet weather before harvest.",
+    "cycle": "Overwinters as sclerotia in soil or on debris, or mycelium in infected bulbs. Spores infect onion necks through wounds or uncured tissue.",
+    "diagnosis": "Characteristic soft decay starting from the neck, gray mold, presence of sclerotia; laboratory isolation for species confirmation.",
+    "impact": "Major cause of post-harvest losses, significantly reduces storage life and marketability.",
+    "prevention": "Use resistant varieties, avoid excessive nitrogen fertilization, ensure proper curing, gentle handling during harvest, proper storage conditions.",
+    "organic": [
+      "Resistant varieties",
+      "Proper curing",
+      "Good ventilation in storage",
+      "Sanitation"
+    ],
+    "chemical": [
+      "Boscalid (pre-harvest spray)",
+      "Fluazinam (pre-harvest spray)"
+    ],
+    "ipm": "Emphasis on cultural practices: proper curing, harvesting techniques, storage conditions, and resistant varieties.",
+    "geography": "Widespread in all onion-growing regions, especially where bulbs are stored.",
+    "differential": "Bacterial soft rot, Fusarium basal rot."
+  },
+  {
+    "id": "ai_gen_26",
+    "name": "Iris Yellow Spot Virus (IYSV)",
+    "scientific": "Iris yellow spot virus (IYSV)",
+    "crop": "Onion",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "Vegetative",
+    "region": "Worldwide",
+    "affected_hosts": "Many hosts",
+    "symptoms": [
+      "Diamond-shaped, straw-colored lesions on leaves and flower stalks",
+      "Lesions may coalesce to form streaks or blotches",
+      "Lesions often appear shiny or silvery",
+      "Leaves may prematurely senescence and fall over (lodging)",
+      "Reduced bulb size and quality"
+    ],
+    "conditions": "Presence of its thrips vector (onion thrips, Thrips tabaci), warm, dry weather favoring thrips multiplication.",
+    "cycle": "Transmitted by onion thrips (Thrips tabaci) in a persistent-propagative manner. Overwinters in infected host plants or volunteer onions/weeds.",
+    "diagnosis": "Visual symptoms (diamond-shaped lesions); ELISA, PCR, or ImmunoStrip tests for definitive diagnosis.",
+    "impact": "Significant yield losses, especially in seed and fresh market onions, reduced storage quality.",
+    "prevention": "Thrips management (cultural and chemical), removal of alternative hosts (weeds, volunteer onions), planting IYSV-free transplants.",
+    "organic": [
+      "Thrips management (beneficial insects, reflective mulches)",
+      "Remove alternative hosts",
+      "Crop rotation"
+    ],
+    "chemical": [
+      "Spinosad (for thrips control)",
+      "Cyantraniliprole (for thrips control)"
+    ],
+    "ipm": "Integrated thrips management is key: resistant varieties, weed control, reflective mulches, biological control, and judicious use of insecticides.",
+    "geography": "Global distribution, wherever onions and onion thrips are prevalent.",
+    "differential": "Nutrient deficiencies, chemical injury, other leaf spot diseases."
+  },
+  {
+    "id": "ai_gen_27",
+    "name": "Common Rust",
+    "scientific": "Puccinia sorghi",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative, Flowering",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Small, cinnamon-brown pustules on upper and lower leaf surfaces",
+      "Pustules rupture to release powdery spores",
+      "Leaves turn yellow and may die prematurely"
+    ],
+    "conditions": "Cool to moderate temperatures (16-25°C), high humidity, presence of dew.",
+    "cycle": "Overwinters on alternate hosts (Oxalis), urediniospores spread by wind.",
+    "diagnosis": "Visual inspection for pustules; microscopic examination of spores.",
+    "impact": "Yield reduction due to reduced photosynthesis; stalk lodging.",
+    "prevention": "Resistant varieties, timely planting, crop rotation.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation",
+      "Sanitation of plant debris"
+    ],
+    "chemical": [
+      "Fungicides (e.g., triazoles, strobilurins)"
+    ],
+    "ipm": "Resistant varieties, scouting, timely fungicide application based on economic thresholds.",
+    "geography": "Widespread in maize-growing regions worldwide.",
+    "differential": "Southern Rust (Puccinia polysora) - different pustule color/shape."
+  },
+  {
+    "id": "ai_gen_28",
+    "name": "Southern Corn Leaf Blight (SCLB)",
+    "scientific": "Cochliobolus heterostrophus",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "All, especially after tasseling",
+    "region": "Global, warmer climates",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Tan, cigar-shaped lesions on leaves",
+      "Lesions start small and coalesce",
+      "May affect stalks and ears in severe cases"
+    ],
+    "conditions": "Warm (20-32°C), wet weather, high humidity, prolonged dew periods.",
+    "cycle": "Overwinters in residue, conidia spread by wind and rain splash.",
+    "diagnosis": "Visual symptoms; fungal culture from lesions.",
+    "impact": "Significant yield loss, reduced grain quality.",
+    "prevention": "Resistant hybrids, tillage, crop rotation.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation",
+      "Removal of infected residue"
+    ],
+    "chemical": [
+      "Fungicides (e.g., strobilurins, triazoles)"
+    ],
+    "ipm": "Resistant hybrids, scouting, cultural practices, targeted fungicide use.",
+    "geography": "Common in tropical and subtropical maize-growing areas.",
+    "differential": "Northern Corn Leaf Blight (NCLB) - lesions are longer, elliptical."
+  },
+  {
+    "id": "ai_gen_29",
+    "name": "Northern Corn Leaf Blight (NCLB)",
+    "scientific": "Exserohilum turcicum",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative to grain-filling",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Long, elliptical, cigar-shaped, gray-green to tan lesions on leaves",
+      "Lesions start on lower leaves and progress upwards",
+      "Causes premature leaf death"
+    ],
+    "conditions": "Moderate temperatures (18-27°C), prolonged leaf wetness, high humidity.",
+    "cycle": "Overwinters in corn residue, conidia spread by wind.",
+    "diagnosis": "Visual symptoms; microscopic examination of conidia.",
+    "impact": "Significant yield reduction by reducing photosynthetic area.",
+    "prevention": "Resistant hybrids, tillage, crop rotation, fungicide application.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation",
+      "Residue management"
+    ],
+    "chemical": [
+      "Fungicides (e.g., strobilurins, triazoles)"
+    ],
+    "ipm": "Use of resistant hybrids, scouting, residue management, judicious fungicide application.",
+    "geography": "Widespread in most maize-growing regions globally.",
+    "differential": "Southern Corn Leaf Blight (SCLB) - lesions are shorter, broader, cigar-shaped."
+  },
+  {
+    "id": "ai_gen_30",
+    "name": "Gray Leaf Spot (GLS)",
+    "scientific": "Cercospora zeae-maydis",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Vegetative, flowering, grain-filling",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Rectangular, gray-brown lesions on leaves, often limited by veins",
+      "Lesions appear water-soaked initially, then turn tan-gray",
+      "Can coalesce to blight entire leaves"
+    ],
+    "conditions": "Warm (24-30°C), high humidity, prolonged leaf wetness (at least 12 hours).",
+    "cycle": "Overwinters in maize residue, conidia spread by wind and rain.",
+    "diagnosis": "Visual symptoms; microscopic observation of conidia on lesions.",
+    "impact": "Significant yield loss due to reduced photosynthesis, premature death of leaves.",
+    "prevention": "Resistant hybrids, crop rotation, residue management, fungicide.",
+    "organic": [
+      "Resistant varieties",
+      "No-till or minimum till to bury residue",
+      "Crop rotation with non-host crops"
+    ],
+    "chemical": [
+      "Fungicides (e.g., strobilurins, triazoles)"
+    ],
+    "ipm": "Resistant hybrids, crop rotation, residue management, scouting, foliar fungicides if necessary.",
+    "geography": "Prevalent in humid maize-growing regions, particularly in no-till systems.",
+    "differential": "Common rust (pustules), NCLB/SCLB (lesion shape)."
+  },
+  {
+    "id": "ai_gen_31",
+    "name": "Common Smut",
+    "scientific": "Ustilago maydis",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "All, but especially young, rapidly growing tissue",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Large, irregular, silvery-white galls on any above-ground plant part (ears, tassels, leaves, stalks)",
+      "Galls darken and rupture to release black powdery spores"
+    ],
+    "conditions": "Warm (20-30°C), moderate moisture, mechanical injury to plants.",
+    "cycle": "Teliospores overwinter in soil/residue, basidiospores infect wounds.",
+    "diagnosis": "Visual presence of galls.",
+    "impact": "Reduced grain yield, especially if galls form on ears.",
+    "prevention": "Resistant hybrids (some partial resistance), avoid mechanical injury.",
+    "organic": [
+      "Resistant varieties",
+      "Avoidance of mechanical injury during cultivation",
+      "Crop rotation (limited effect as spores persist long)"
+    ],
+    "chemical": [
+      "No effective chemical control once infection occurs",
+      "Seed treatments may offer slight early protection"
+    ],
+    "ipm": "Use resistant hybrids where available, minimize plant injury, proper nutrient management.",
+    "geography": "Found wherever maize is grown.",
+    "differential": "Head Smut (galls only on tassel/ear)."
+  },
+  {
+    "id": "ai_gen_32",
+    "name": "Head Smut",
+    "scientific": "Sporisorium reilianum",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Seedling (infection), Flowering/Grain-filling (symptom expression)",
+    "region": "Global, more common in drier areas",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Replacement of entire tassel and ear with black, powdery spore masses",
+      "Often covered by a thin membrane that ruptures",
+      "Stunted growth and barren plants"
+    ],
+    "conditions": "Warm (20-30°C), dry soil at planting, cool, wet soil also reported, stress.",
+    "cycle": "Soil-borne teliospores infect seedlings, systemic infection.",
+    "diagnosis": "Visual replacement of tassel/ear with spore masses.",
+    "impact": "Complete loss of affected ears/tassels, significant yield reduction.",
+    "prevention": "Resistant hybrids, seed treatment, crop rotation.",
+    "organic": [
+      "Resistant varieties",
+      "Crop rotation with non-host crops for several years",
+      "Sanitation of infected plants"
+    ],
+    "chemical": [
+      "Fungicide seed treatments (e.g., fludioxonil, metalaxyl)"
+    ],
+    "ipm": "Use resistant hybrids, treated seeds, long crop rotations, field sanitation.",
+    "geography": "Widespread in many maize and sorghum growing areas, often associated with specific soil types.",
+    "differential": "Common Smut (discrete galls, not entire organ replacement)."
+  },
+  {
+    "id": "ai_gen_33",
+    "name": "Maize Lethal Necrosis (MLN)",
+    "scientific": "Maize Chlorotic Mottle Virus (MCMV) + Potyvirus",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "All, especially early vegetative",
+    "region": "Africa (East & Central), parts of Asia",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Severe stunting",
+      "Chlorosis (yellowing) of leaves starting from the whorl",
+      "Necrosis (browning/dying) of leaf margins and central whorl",
+      "Premature drying of entire plant",
+      "No or poor ear development"
+    ],
+    "conditions": "Presence of both MCMV and a potyvirus, vector activity (thrips, aphids).",
+    "cycle": "MCMV transmitted by thrips and seed; potyviruses by aphids; combined infection causes MLN.",
+    "diagnosis": "ELISA, PCR to detect viruses; indicator plant tests.",
+    "impact": "Complete crop failure in severe cases, devastating yield losses.",
+    "prevention": "Resistant varieties, vector control, strict phytosanitation, crop rotation, certified seed.",
+    "organic": [
+      "Resistant varieties",
+      "Vector management (e.g., reflective mulches, biological control)",
+      "Crop rotation with non-hosts",
+      "Removal of infected plants"
+    ],
+    "chemical": [
+      "Insecticides for vector control (e.g., thrips, aphids)"
+    ],
+    "ipm": "Integrated approach including resistant varieties, vector management, strict phytosanitary measures (certified seed, rogueing), crop rotation.",
+    "geography": "Primarily East and Central Africa, with isolated reports elsewhere.",
+    "differential": "Stunting and yellowing caused by nutrient deficiency or other viral diseases."
+  },
+  {
+    "id": "ai_gen_34",
+    "name": "Stewart's Wilt",
+    "scientific": "Pantoea stewartii subsp. stewartii",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Bacterial",
+    "growth_stage": "Seedling, Vegetative",
+    "region": "North America, parts of South America",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Seedling wilt and death (early infection)",
+      "Long, irregular, water-soaked streaks on leaves, often starting from flea beetle feeding scars",
+      "Streaks turn yellow-orange and then brown",
+      "Cavities in stalk pith in severe cases"
+    ],
+    "conditions": "Warm temperatures (25-30°C), presence of corn flea beetles, mild winters that allow vector survival.",
+    "cycle": "Overwinters in corn flea beetles, transmitted by beetles feeding on plants.",
+    "diagnosis": "Visual symptoms, bacterial streaming from cut tissue, ELISA.",
+    "impact": "Severe yield losses in susceptible sweet corn, reduced stand.",
+    "prevention": "Resistant varieties, control of corn flea beetles, seed treatment.",
+    "organic": [
+      "Resistant varieties",
+      "Early planting to avoid high flea beetle populations",
+      "Removal of volunteer corn"
+    ],
+    "chemical": [
+      "Insecticides for flea beetle control (seed treatment or foliar)"
+    ],
+    "ipm": "Resistant varieties, monitoring flea beetle populations, judicious insecticide application when threshold met, seed treatment.",
+    "geography": "Primarily Eastern and Midwestern United States, and parts of Canada and South America.",
+    "differential": "Common Rust (pustules vs streaks), other leaf blights (fungal vs bacterial streaming)."
+  },
+  {
+    "id": "ai_gen_35",
+    "name": "Maize Streak Virus (MSV)",
+    "scientific": "Maize streak virus",
+    "crop": "Maize",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "All, especially early infection causes severe symptoms",
+    "region": "Africa, Indian Ocean Islands",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Interveinal chlorotic streaks, usually starting from the base of the newest leaves",
+      "Streaks are discontinuous, often forming broken lines",
+      "Severe stunting of affected plants",
+      "Poor ear development or complete barrenness"
+    ],
+    "conditions": "Presence of infected host plants and leafhopper vector (Cicadulina spp.).",
+    "cycle": "Transmitted by various species of Cicadulina leafhoppers in a persistent manner.",
+    "diagnosis": "Visual symptoms, ELISA, PCR to detect virus.",
+    "impact": "Significant yield losses, especially with early infection.",
+    "prevention": "Resistant varieties, vector control, early planting, rogueing.",
+    "organic": [
+      "Resistant varieties",
+      "Vector management (e.g., biological control, physical barriers)",
+      "Early planting",
+      "Removal of infected plants and alternative hosts"
+    ],
+    "chemical": [
+      "Insecticides for leafhopper control"
+    ],
+    "ipm": "Use of resistant varieties, vector management, removal of infected plants and alternative hosts, proper timing of planting.",
+    "geography": "Endemic to sub-Saharan Africa and Indian Ocean islands.",
+    "differential": "Other viral diseases or nutrient deficiencies causing yellowing/stunting."
+  },
+  {
+    "id": "ai_gen_36",
+    "name": "Sugarcane Red Rot",
+    "scientific": "Colletotrichum falcatum",
+    "crop": "Sugarcane",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Grand Growth",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Reddening of internal stalk tissue with characteristic white patches",
+      "Sour alcoholic smell from infected stalks",
+      "Shrivelling of canes",
+      "Leaf yellowing and drying from margins",
+      "Small dark spots on midribs"
+    ],
+    "conditions": "Warm, humid weather, waterlogged soils, ratoon crops, mechanical injuries.",
+    "cycle": "Survives in infected plant debris and soil; spread by infected setts, rain, wind, farm equipment.",
+    "diagnosis": "Visual inspection of internal stalk tissue, laboratory culture.",
+    "impact": "Significant yield and sugar recovery losses, especially in susceptible varieties.",
+    "prevention": "Use resistant varieties, hot water treatment of setts, proper drainage, avoid ratooning infected fields.",
+    "organic": [
+      "Removal and destruction of infected plants",
+      "Crop rotation with non-host crops",
+      "Use of Trichoderma bio-fungicides"
+    ],
+    "chemical": [
+      "Seed treatment with fungicides (e.g., Carbendazim)",
+      "Foliar sprays during early stages (less effective for systemic)"
+    ],
+    "ipm": "Resistant varieties, sanitation, healthy setts, crop rotation, soil amendments, cultural practices.",
+    "geography": "Widespread in sugarcane growing regions globally, particularly India, Pakistan, Southeast Asia.",
+    "differential": "Sugarcane Wilt (internal reddening without white patches, no sour smell)."
+  },
+  {
+    "id": "ai_gen_37",
+    "name": "Sugarcane Smut",
+    "scientific": "Sporisorium scitamineum",
+    "crop": "Sugarcane",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Tillering",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Whip-like, black, curved structure emerging from the apex of the culm",
+      "Thin, grassy shoots",
+      "Stunted growth",
+      "Reduced cane diameter"
+    ],
+    "conditions": "Warm temperatures, high humidity, infected seed material, susceptible varieties.",
+    "cycle": "Spores spread by wind, rain, farm equipment; infects buds, grows systemically, emerges as a whip.",
+    "diagnosis": "Presence of the characteristic black whip.",
+    "impact": "Significant reduction in cane yield and sugar content; causes entire stools to become unproductive.",
+    "prevention": "Use resistant varieties, hot water/aerated steam treatment of setts, rogueing of infected plants, chemical seed treatment.",
+    "organic": [
+      "Rogueing and burning of smutted plants",
+      "Use of disease-free setts",
+      "Bio-control agents like Trichoderma"
+    ],
+    "chemical": [
+      "Seed treatment with fungicides (e.g., Triadimefon, Carboxin)"
+    ],
+    "ipm": "Resistant varieties, disease-free seed material, rogueing, hot water treatment, crop rotation.",
+    "geography": "Widespread in all sugarcane growing areas.",
+    "differential": "No common diseases with a similar 'whip' symptom."
+  },
+  {
+    "id": "ai_gen_38",
+    "name": "Sugarcane Brown Rust",
+    "scientific": "Puccinia melanocephala",
+    "crop": "Sugarcane",
+    "severity": "Medium",
+    "cause": "Fungal",
+    "growth_stage": "Grand Growth",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Small, reddish-brown, elongated spots (pustules) on both sides of leaves",
+      "Pustules release powdery reddish-brown spores",
+      "Leaf yellowing and drying in severe cases"
+    ],
+    "conditions": "Moderate temperatures (20-25°C), high humidity, dew or rain, susceptible varieties.",
+    "cycle": "Uredospores spread by wind; infect leaves, germinate, form pustules.",
+    "diagnosis": "Visual identification of reddish-brown pustules and spore release.",
+    "impact": "Reduced photosynthetic efficiency, premature leaf senescence, leading to yield losses and lower sugar content.",
+    "prevention": "Use resistant varieties, avoid planting susceptible varieties in high-risk areas.",
+    "organic": [
+      "Selection of resistant varieties",
+      "Good field sanitation to reduce inoculum"
+    ],
+    "chemical": [
+      "Foliar application of fungicides (e.g., Triazoles like Propiconazole, Tebuconazole) as a preventative or early curative measure"
+    ],
+    "ipm": "Resistant varieties, timely fungicide application if necessary, monitoring.",
+    "geography": "Widespread in all sugarcane growing regions.",
+    "differential": "Orange Rust (Puccinia kuehnii) - appears more orange-red."
+  },
+  {
+    "id": "ai_gen_39",
+    "name": "Sugarcane Ratoon Stunting Disease",
+    "scientific": "Leifsonia xyli subsp. xyli",
+    "crop": "Sugarcane",
+    "severity": "High",
+    "cause": "Bacterial",
+    "growth_stage": "All",
+    "region": "Global",
+    "affected_hosts": "Few",
+    "symptoms": [
+      "General stunting of plants, especially in ratoon crops",
+      "Reduced stalk length and diameter",
+      "Poor tillering",
+      "Pinkish-orange discoloration of vascular bundles in stalk nodes (visible upon splitting)",
+      "No external characteristic symptoms"
+    ],
+    "conditions": "Spreads mechanically through contaminated cutting tools; high temperatures can exacerbate stunting.",
+    "cycle": "Systemic infection; survives within the vascular tissue of infected plants; spread via contaminated machinery.",
+    "diagnosis": "Microscopic examination of sap from vascular bundles for bacteria; specific serological tests (ELISA) or PCR. Splitting stalk to check vascular discoloration is a preliminary check.",
+    "impact": "Significant yield losses (10-50% or more), especially in ratoon crops, often undetected.",
+    "prevention": "Use disease-free seed cane, hot water treatment of setts, regular disinfection of cutting tools.",
+    "organic": [
+      "Use of disease-free seed cane (tissue culture or hot water treated)",
+      "Sterilization of cutting tools with bleach or heat"
+    ],
+    "chemical": [
+      "No effective chemical control once infected. Prevention is key."
+    ],
+    "ipm": "Strict use of clean seed material, disinfection of tools, resistant varieties (no true resistance, but tolerance exists).",
+    "geography": "Global, present wherever sugarcane is grown.",
+    "differential": "Nutrient deficiencies, drought stress, other stunting diseases like White Leaf Disease (but RSD has specific vascular symptoms)."
+  },
+  {
+    "id": "ai_gen_40",
+    "name": "Sugarcane Mosaic Disease",
+    "scientific": "Sugarcane mosaic virus (SCMV)",
+    "crop": "Sugarcane",
+    "severity": "Medium",
+    "cause": "Viral",
+    "growth_stage": "All",
+    "region": "Global",
+    "affected_hosts": "Few",
+    "symptoms": [
+      "Characteristic mosaic pattern (alternating light green/yellow and dark green areas) on young leaves",
+      "Stunting",
+      "Reduced tillering",
+      "Chlorosis",
+      "Necrotic streaks in severe cases"
+    ],
+    "conditions": "Presence of aphid vectors, susceptible varieties, infected planting material.",
+    "cycle": "Transmitted by aphid vectors in a non-persistent manner and through infected setts.",
+    "diagnosis": "Visual identification of mosaic symptoms; serological tests (ELISA), PCR.",
+    "impact": "Yield losses (5-20%), reduced sugar content.",
+    "prevention": "Use resistant varieties, disease-free planting material, control of aphid vectors (less effective for non-persistent viruses).",
+    "organic": [
+      "Use of resistant varieties",
+      "Rogueing of infected plants",
+      "Use of insecticidal soaps for aphid control (limited effectiveness in field)"
+    ],
+    "chemical": [
+      "Insecticides for aphid control (often not practical or effective enough due to non-persistent transmission)",
+      "No direct antiviral treatments"
+    ],
+    "ipm": "Resistant varieties, use of clean setts, cultural practices to reduce aphid populations, early rogueing.",
+    "geography": "Global, but less prevalent in areas where resistant varieties are widely used.",
+    "differential": "Nutrient deficiencies, other viral diseases (e.g., Yellow Leaf Disease has different yellowing patterns)."
+  },
+  {
+    "id": "ai_gen_41",
+    "name": "Sugarcane Yellow Leaf Disease",
+    "scientific": "Sugarcane yellow leaf virus (SCYLV)",
+    "crop": "Sugarcane",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "All",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Distinctive yellowing of the midrib on older leaves, starting from the tip and progressing downwards",
+      "Reddening of the leaf blade in some varieties",
+      "Premature senescence of older leaves",
+      "Reduced stalk growth and diameter"
+    ],
+    "conditions": "Presence of aphid vectors (especially Melanaphis sacchari), susceptible varieties, infected planting material.",
+    "cycle": "Transmitted by aphids in a semi-persistent manner and through infected setts.",
+    "diagnosis": "Visual identification of characteristic yellowing; serological tests (ELISA), PCR.",
+    "impact": "Significant yield losses (up to 50% in susceptible varieties), reduced sugar content and juice purity.",
+    "prevention": "Use resistant varieties, disease-free planting material, aphid control.",
+    "organic": [
+      "Use of resistant or tolerant varieties",
+      "Rogueing of infected plants",
+      "Biological control of aphids"
+    ],
+    "chemical": [
+      "Insecticides for aphid control (can be part of an IPM strategy)"
+    ],
+    "ipm": "Resistant varieties, disease-free setts (hot water treatment can reduce incidence but not eliminate), vector management, rogueing.",
+    "geography": "Global, major issue in many sugarcane producing countries.",
+    "differential": "Nitrogen deficiency (general yellowing, not specific to midrib), other stresses."
+  },
+  {
+    "id": "ai_gen_42",
+    "name": "Sugarcane Pokkah Boeng",
+    "scientific": "Fusarium sacchari",
+    "crop": "Sugarcane",
+    "severity": "Medium",
+    "cause": "Fungal",
+    "growth_stage": "Grand Growth",
+    "region": "Global",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Distortion, twisting, and shortening of the spindle leaves",
+      "Chlorotic and necrotic lesions at the base of young leaves",
+      "Ladder-like lesions on the midribs",
+      "Top rot (in severe cases) leading to a dead heart",
+      "Knife-cut lesions on stalks"
+    ],
+    "conditions": "Warm, humid weather with frequent rainfall, mechanical injuries.",
+    "cycle": "Spores spread by wind and rain; infects the young, growing tissues of the spindle.",
+    "diagnosis": "Visual identification of characteristic spindle distortions and lesions.",
+    "impact": "Reduced cane growth, stalk damage, yield loss, especially if top rot occurs.",
+    "prevention": "Use resistant varieties, good field sanitation, avoid mechanical injuries.",
+    "organic": [
+      "Selection of resistant varieties",
+      "Good field hygiene"
+    ],
+    "chemical": [
+      "Foliar application of fungicides (e.g., Carbendazim, Thiophanate-methyl) in early stages or as preventative in high-risk periods"
+    ],
+    "ipm": "Resistant varieties, sanitation, cultural practices to reduce stress.",
+    "geography": "Widespread in tropical and subtropical sugarcane regions.",
+    "differential": "Borer damage (similar dead heart but with tunnels), nutrient deficiencies (different leaf distortions)."
+  },
+  {
+    "id": "ai_gen_43",
+    "name": "Sugarcane Gummosis",
+    "scientific": "Xanthomonas axonopodis pv. vasculorum",
+    "crop": "Sugarcane",
+    "severity": "Medium",
+    "cause": "Bacterial",
+    "growth_stage": "All",
+    "region": "Historically important, now localized",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Exudation of a yellowish gum from cut stalks or cracks in stalks",
+      "Longitudinal red streaks on leaves (often with lighter veins)",
+      "Vascular discoloration (reddening) within stalks",
+      "Stunting and wilting in severe cases"
+    ],
+    "conditions": "Warm, wet conditions, particularly rain following periods of drought; susceptible varieties; mechanical injuries.",
+    "cycle": "Survives in infected plant debris and soil; spread by infected setts, rain, wind, farm equipment.",
+    "diagnosis": "Visual identification of gum exudation and characteristic leaf streaks; laboratory isolation and identification of bacteria.",
+    "impact": "Reduced yield and sugar quality, plant death in severe cases.",
+    "prevention": "Use resistant varieties, disease-free planting material, sanitation of tools.",
+    "organic": [
+      "Use of resistant varieties",
+      "Removal and destruction of infected plants",
+      "Tool sterilization"
+    ],
+    "chemical": [
+      "No effective chemical control once established in the plant. Prevention is key."
+    ],
+    "ipm": "Resistant varieties, clean seed, sanitation, avoidance of spreading the disease via equipment.",
+    "geography": "Historically significant, now more sporadic due to improved varieties; still present in some tropical regions.",
+    "differential": "Red Rot (internal reddening but without distinct gum exudation unless severe), Leaf Scald (different leaf streaking, no gum)."
+  },
+  {
+    "id": "ai_gen_44",
+    "name": "Sugarcane Fiji Disease",
+    "scientific": "Sugarcane Fiji Disease virus (SCFDV)",
+    "crop": "Sugarcane",
+    "severity": "High",
+    "cause": "Viral",
+    "growth_stage": "All",
+    "region": "Pacific, Australia, Southeast Asia, Africa",
+    "affected_hosts": "Few",
+    "symptoms": [
+      "Presence of characteristic gall-like swellings (enations) on the underside of leaf midribs and veins",
+      "Severe stunting",
+      "Dark green, stiff, erect leaves",
+      "Reduced tillering",
+      "Progressive drying of leaves from the top downwards"
+    ],
+    "conditions": "Presence of the planthopper vector (Perkinsiella saccharicida), susceptible varieties, infected planting material.",
+    "cycle": "Transmitted by planthoppers in a persistent manner and through infected setts.",
+    "diagnosis": "Visual identification of enations; PCR for virus detection.",
+    "impact": "Extremely high yield losses (up to 100%) in susceptible varieties, rendering fields unproductive.",
+    "prevention": "Use resistant varieties, disease-free planting material, vector control.",
+    "organic": [
+      "Use of resistant varieties",
+      "Rogueing and destruction of infected plants",
+      "Biological control of planthopper vectors"
+    ],
+    "chemical": [
+      "Insecticides for planthopper control (e.g., Neonicotinoids) as part of an IPM program"
+    ],
+    "ipm": "Resistant varieties are the cornerstone; coupled with disease-free seed, rogueing, and vector management.",
+    "geography": "Primarily in the South Pacific (Fiji, Australia, Papua New Guinea) and parts of Southeast Asia and Africa.",
+    "differential": "No other sugarcane disease produces the distinct gall-like enations."
+  },
+  {
+    "id": "ai_gen_45",
+    "name": "Apple Scab",
+    "scientific": "Venturia inaequalis",
+    "crop": "Apple",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Bud break to harvest",
+    "region": "Worldwide",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Olive-green to brown spots on leaves, often becoming velvety",
+      "Scabby, dark, circular lesions on fruit, sometimes causing distortion",
+      "Lesions on fruit pedicels leading to premature fruit drop",
+      "Brownish-black lesions on twigs and bud scales"
+    ],
+    "conditions": "Cool, wet spring weather; prolonged leaf wetness (6-24 hours depending on temperature); high humidity",
+    "cycle": "Overwinters in fallen leaves as pseudothecia. Ascospores released in spring (primary infection). Conidia produced on new lesions (secondary infections) throughout the season.",
+    "diagnosis": "Visual identification of characteristic lesions on leaves and fruit. Microscopic examination of spores from lesions.",
+    "impact": "Significant reduction in fruit quality and marketability; yield loss due to premature fruit drop and defoliation; increased susceptibility to secondary infections.",
+    "prevention": "Plant resistant varieties; sanitation (remove fallen leaves); proper pruning for air circulation; timely fungicide applications.",
+    "organic": [
+      "Sulfur-based fungicides",
+      "Copper-based fungicides (use with caution to avoid russeting)",
+      "Neem oil",
+      "Compost tea"
+    ],
+    "chemical": [
+      "Myclobutanil (DMI)",
+      "Captan (Phthalimide)",
+      "Polyoxin D zinc salt (Chitin Synthase Inhibitor)",
+      "Mancozeb (Multi-site contact)"
+    ],
+    "ipm": "Monitor weather for infection periods (Mills' table or RIMpro); use disease resistant cultivars; prune for air flow; remove overwintering inoculum; targeted fungicide applications based on risk assessment and disease forecasts.",
+    "geography": "Temperate regions globally where apples are grown.",
+    "differential": "Black rot leaf spot (frog-eye spot), chemical burn, early cedar apple rust spots."
+  },
+  {
+    "id": "ai_gen_46",
+    "name": "Powdery Mildew",
+    "scientific": "Podosphaera leucotricha",
+    "crop": "Apple",
+    "severity": "Medium to High",
+    "cause": "Fungal",
+    "growth_stage": "Bud break, shoot elongation, fruit set",
+    "region": "Worldwide",
+    "affected_hosts": "1",
+    "symptoms": [
+      "White, powdery patches on young leaves, shoots, and blossoms",
+      "Stunted and distorted leaves that curl upwards",
+      "Reduced shoot growth and vigor",
+      "Russeted patches on fruit skin in severe cases"
+    ],
+    "conditions": "High humidity (without rain); moderate temperatures (60-70°F or 15-21°C); shade or poor air circulation.",
+    "cycle": "Overwinters as mycelium in dormant buds. Spores (conidia) are produced in spring and spread by wind. Multiple secondary infection cycles throughout the growing season.",
+    "diagnosis": "Visual identification of characteristic white, powdery fungal growth on plant surfaces. Absence of water-soaked lesions.",
+    "impact": "Reduced photosynthesis due to leaf damage; poor fruit finish and quality; decreased fruit size and yield; stunted tree growth.",
+    "prevention": "Plant resistant varieties; remove infected shoots during pruning; good air circulation; avoid excessive nitrogen fertilization.",
+    "organic": [
+      "Sulfur-based fungicides",
+      "Potassium bicarbonate",
+      "Neem oil",
+      "Horticultural oils"
+    ],
+    "chemical": [
+      "Myclobutanil (DMI)",
+      "Fenarimol (DMI)",
+      "Quinoxyfen (Quinoline)",
+      "Fluazinam (Phenylpyridinamine)"
+    ],
+    "ipm": "Use resistant cultivars where possible; prune out infected shoot tips in dormant and growing seasons; monitor for initial symptoms; targeted fungicide applications, especially early in the season.",
+    "geography": "Temperate apple-growing regions worldwide.",
+    "differential": "Downy mildew (less common on apple, different appearance); white mold on leaves."
+  },
+  {
+    "id": "ai_gen_47",
+    "name": "Cedar Apple Rust",
+    "scientific": "Gymnosporangium juniperi-virginianae",
+    "crop": "Apple",
+    "severity": "Medium",
+    "cause": "Fungal",
+    "growth_stage": "Spring (leaf infection), early summer (fruit infection)",
+    "region": "Eastern North America",
+    "affected_hosts": "2",
+    "symptoms": [
+      "Bright orange-yellow spots on upper leaf surfaces, often with red borders",
+      "Small, tube-like projections (aecia) on the underside of leaves or fruit",
+      "Orange, gelatinous galls on cedar/juniper trees in spring after rain",
+      "Fruit infection causes orange lesions, often distorted fruit"
+    ],
+    "conditions": "Presence of both apple (Malus spp.) and cedar/juniper (Juniperus spp.) hosts; wet spring weather during spore release from galls.",
+    "cycle": "Heteroecious rust (requires two hosts). Spores (basidiospores) from juniper galls infect apple in spring. Aeciospores from apple infect juniper in summer. Cycle takes two years to complete.",
+    "diagnosis": "Visual identification of distinct orange leaf spots and aecia on apple, and characteristic galls on junipers.",
+    "impact": "Mainly cosmetic damage to leaves and fruit; severe infections can lead to premature defoliation and reduced fruit marketability.",
+    "prevention": "Remove wild cedar/juniper hosts within a 1-2 mile radius; plant resistant apple varieties; fungicide applications.",
+    "organic": [
+      "Sulfur-based fungicides (limited efficacy)",
+      "Neem oil"
+    ],
+    "chemical": [
+      "Myclobutanil (DMI)",
+      "Fenarimol (DMI)",
+      "Mancozeb (Multi-site contact, protective)"
+    ],
+    "ipm": "Plant rust-resistant apple cultivars; scout for cedar galls and remove them; prune out infected branches from junipers; timed fungicide sprays during susceptible apple growth stages when junipers are sporulating.",
+    "geography": "Primarily eastern and central North America, where both hosts are prevalent.",
+    "differential": "Early apple scab leaf spots, frog-eye leaf spot (black rot)."
+  },
+  {
+    "id": "ai_gen_48",
+    "name": "Fire Blight",
+    "scientific": "Erwinia amylovora",
+    "crop": "Apple",
+    "severity": "High",
+    "cause": "Bacterial",
+    "growth_stage": "Flowering, active shoot growth",
+    "region": "Worldwide",
+    "affected_hosts": "2",
+    "symptoms": [
+      "Blossom blight: flowers wilt, shrivel, and turn brown/black",
+      "Shoot blight: young shoots rapidly wilt, turn dark brown/black, forming a 'shepherd's crook' at the tip",
+      "Cankers: sunken, discolored areas on branches and trunk, often with bacterial ooze",
+      "Water-soaked lesions on fruit, leading to rot and mummification"
+    ],
+    "conditions": "Warm temperatures (70-85°F or 21-29°C); high humidity or rain during bloom; hail or strong winds causing wounds; rapid succulent growth.",
+    "cycle": "Overwinters in cankers on host trees. Bacteria multiply in spring, oozing from cankers. Spread by rain, wind, insects (bees), and pruning tools. Enters through natural openings (flowers, stomata) or wounds.",
+    "diagnosis": "Visual symptoms (shepherd's crook, cankers, ooze). Lab culturing for bacterial identification. ELISA tests.",
+    "impact": "Rapid tree death in severe cases; significant yield loss; destruction of entire orchards if not managed effectively.",
+    "prevention": "Plant resistant varieties; sterile pruning tools; proper nutrition (avoid excessive N); copper sprays in dormant season.",
+    "organic": [
+      "Copper sprays (dormant and early bloom, use with caution on foliage)",
+      "Streptomycin (antibiotic, some organic certifications allow with restrictions)",
+      "Biological control agents (e.g., Bacillus subtilis, Pseudomonas fluorescens)"
+    ],
+    "chemical": [
+      "Streptomycin (antibiotic)",
+      "Oxytetracycline (antibiotic)",
+      "Kasugamycin (antibiotic)"
+    ],
+    "ipm": "Utilize predictive models (e.g., Cougar Blight, Maryblyt) to time sprays; prune out infected branches 8-12 inches beyond visible symptoms during dry weather; sterilize pruning tools; apply antibiotics during bloom if infection risk is high; avoid susceptible rootstocks.",
+    "geography": "North America, Europe, New Zealand, and other apple/pear growing regions globally.",
+    "differential": "Botryosphaeria canker, freezing damage, chemical burn, black rot (on fruit)."
+  },
+  {
+    "id": "ai_gen_49",
+    "name": "Black Rot",
+    "scientific": "Botryosphaeria obtusa",
+    "crop": "Apple",
+    "severity": "Medium to High",
+    "cause": "Fungal",
+    "growth_stage": "Post-bloom, fruit development, harvest, storage",
+    "region": "Worldwide",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Frog-eye leaf spot: small, circular spots with purple borders and tan centers, often with a 'frog-eye' appearance",
+      "Branch cankers: target-shaped, sunken cankers on limbs and twigs, causing girdling and dieback",
+      "Fruit rot: initial brown rot expanding into a firm, black, mummified fruit, often with concentric rings of black pycnidia (spore structures)"
+    ],
+    "conditions": "Warm, humid weather; presence of inoculum (dead wood, mummified fruit, cankers); wounds on fruit or branches.",
+    "cycle": "Overwinters in dead wood, cankers, and mummified fruit. Spores (pycnidiospores) released during wet periods and spread by rain and wind. Infects through wounds or natural openings.",
+    "diagnosis": "Visual identification of distinct frog-eye leaf spots, cankers, and characteristic fruit mummification. Microscopic examination of pycnidia.",
+    "impact": "Reduced yield due to fruit rot and premature drop; branch dieback; decreased fruit quality and storage life.",
+    "prevention": "Orchard sanitation (remove dead wood, mummified fruit); proper pruning; control of insect pests that cause wounds; fungicide applications.",
+    "organic": [
+      "Copper sprays (dormant and post-harvest)",
+      "Sulfur-based fungicides (limited efficacy)",
+      "Neem oil"
+    ],
+    "chemical": [
+      "Captan (Phthalimide)",
+      "Mancozeb (Multi-site contact)",
+      "Tebuconazole (DMI)",
+      "Strobilurins (FRAC Group 11)"
+    ],
+    "ipm": "Sanitation is key: remove dead wood, cankers, and mummified fruit from trees and orchard floor. Prune to improve air circulation. Protect trees from insect damage (e.g., codling moth, plum curculio). Apply fungicides at bloom, first cover, and during fruit development if conditions are favorable.",
+    "geography": "All apple-growing regions, particularly in areas with warm, humid summers.",
+    "differential": "Apple scab (leaf spots, but scab lesions are more olive-green and velvety), bitter rot (on fruit, but different lesion appearance)."
+  },
+  {
+    "id": "ai_gen_50",
+    "name": "Bitter Rot",
+    "scientific": "Colletotrichum spp. (e.g., C. acutatum, C. gloeosporioides)",
+    "crop": "Apple",
+    "severity": "High",
+    "cause": "Fungal",
+    "growth_stage": "Fruit development to harvest",
+    "region": "Worldwide (especially warm climates)",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Circular, sunken, light to dark brown lesions on fruit, often with concentric rings of pinkish or orange spore masses (acervuli)",
+      "The rotted flesh underneath is V-shaped in cross-section and tastes bitter",
+      "Small cankers may occur on twigs, but fruit rot is primary symptom"
+    ],
+    "conditions": "Hot (75-90°F or 24-32°C), humid weather; frequent rainfall or overhead irrigation; presence of inoculum (mummified fruit, wood cankers, alternate hosts).",
+    "cycle": "Overwinters in mummified fruit, dead wood, and cankers. Spores (conidia) are released by rain splash and infect fruit, often through lenticels or wounds. Multiple infection cycles possible during warm, wet periods.",
+    "diagnosis": "Visual identification of characteristic fruit lesions with concentric rings and pinkish spore masses. Distinct V-shaped rot inside fruit. Lab culturing for species identification.",
+    "impact": "Significant pre-harvest and post-harvest fruit loss; major economic impact in susceptible varieties and regions.",
+    "prevention": "Orchard sanitation; fungicide applications; proper tree spacing and pruning for air circulation.",
+    "organic": [
+      "Copper sprays (use with caution during fruiting)",
+      "Organic-approved biological fungicides (e.g., Bacillus subtilis)",
+      "Neem oil (limited efficacy)"
+    ],
+    "chemical": [
+      "Captan (Phthalimide)",
+      "Strobilurins (FRAC Group 11, e.g., Pyraclostrobin)",
+      "Dithiocarbamates (e.g., Mancozeb)",
+      "Pre-harvest fungicides for storage diseases"
+    ],
+    "ipm": "Sanitation (remove mummified fruit and dead wood); good weed control to improve air circulation; timely and thorough fungicide applications during fruit development, especially prior to anticipated hot, wet weather; use resistant cultivars.",
+    "geography": "Warm, humid apple-growing regions, particularly in the southeastern US, Australia, and parts of Asia.",
+    "differential": "Black rot (fruit lesions are firmer, often black, without prominent concentric pink spore masses), white rot."
+  },
+  {
+    "id": "ai_gen_51",
+    "name": "Flyspeck and Sooty Blotch",
+    "scientific": "Zygophiala jamaicensis (Flyspeck), Gloeodes pomigena (Sooty Blotch) - *complex of fungi*",
+    "crop": "Apple",
+    "severity": "Low to Medium",
+    "cause": "Fungal",
+    "growth_stage": "Fruit development to harvest",
+    "region": "Worldwide",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Flyspeck: distinct, small, shiny, black circular dots clustered on the fruit skin, resembling insect excrement",
+      "Sooty Blotch: irregular, olive-green to black, superficial smudges or blotches on the fruit skin, often merging to cover large areas",
+      "Symptoms are superficial and do not affect fruit flesh or taste"
+    ],
+    "conditions": "High humidity; poor air circulation; shade; prolonged periods of wetness; temperatures between 60-80°F (15-27°C).",
+    "cycle": "Overwinter on twigs of apple or nearby woody plants. Spores spread by wind and rain in late spring/early summer. Fungi grow superficially on fruit cuticle. Multiple secondary infection cycles.",
+    "diagnosis": "Visual identification of characteristic superficial blemishes on fruit skin. Symptoms can be rubbed off with abrasive cleaning.",
+    "impact": "Primarily cosmetic damage, significantly reducing fruit marketability and aesthetic value. No impact on fruit internal quality or storage life.",
+    "prevention": "Prune for good air circulation and sunlight penetration; control weeds; fungicide applications.",
+    "organic": [
+      "Sulfur-based fungicides",
+      "Copper-based fungicides",
+      "Horticultural oils"
+    ],
+    "chemical": [
+      "Captan (Phthalimide)",
+      "Thiophanate-methyl (Benzimidazole)",
+      "Strobilurins (FRAC Group 11)",
+      "Mancozeb (Multi-site contact)"
+    ],
+    "ipm": "Implement rigorous pruning practices to improve air circulation and sunlight penetration within the canopy. Maintain good weed control. Apply fungicides protectively from late spring through harvest, especially in orchards with a history of the disease and during humid periods.",
+    "geography": "Temperate and subtropical apple-growing regions with high humidity.",
+    "differential": "Powdery mildew (on leaves/shoots, white powdery growth), pesticide residue."
+  },
+  {
+    "id": "ai_gen_52",
+    "name": "European Canker",
+    "scientific": "Neonectria ditissima (formerly Nectria galligena)",
+    "crop": "Apple",
+    "severity": "Medium to High",
+    "cause": "Fungal",
+    "growth_stage": "Dormancy, bud break, leaf fall (wounds)",
+    "region": "Europe, North America, New Zealand",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Sunken, target-shaped cankers on branches, twigs, and trunks, often with concentric callus rings",
+      "Dead bark within the canker, often splitting or peeling",
+      "Small, red, spherical fruiting bodies (perithecia) may appear on dead bark during wet weather",
+      "Branch dieback, limb breakage, or tree girdling in severe cases"
+    ],
+    "conditions": "Wet, cool weather; presence of wounds (pruning cuts, leaf scars, frost cracks, hail damage); high humidity.",
+    "cycle": "Overwinters as mycelium in cankers and as perithecia. Ascospores released during wet periods and infect through fresh wounds (especially leaf scars in autumn, pruning cuts). Conidia produced from cankers during spring/summer, also contribute to spread.",
+    "diagnosis": "Visual identification of characteristic target cankers. Microscopic examination of perithecia or culturing from infected tissue.",
+    "impact": "Branch dieback, reduced tree vigor and productivity, structural weakness leading to limb breakage, potential tree death in young trees.",
+    "prevention": "Prune during dry weather; remove and destroy infected branches; use wound sealants on large cuts; avoid susceptible varieties.",
+    "organic": [
+      "Copper sprays (dormant and post-harvest)",
+      "Organic-approved biological control agents (e.g., Trichoderma spp.)"
+    ],
+    "chemical": [
+      "Copper-based fungicides (dormant spray)",
+      "Thiophanate-methyl (Benzimidazole, sometimes used as a wound treatment)"
+    ],
+    "ipm": "Prune out cankers promptly during dry periods (late winter/early spring or summer). Make clean cuts into healthy wood, well below the canker margin. Protect fresh pruning wounds on susceptible varieties. Apply fungicides at leaf fall and bud break to protect wound sites. Plant resistant apple cultivars and rootstocks.",
+    "geography": "Temperate apple-growing regions globally, particularly prevalent in Europe, Pacific Northwest of North America, and New Zealand.",
+    "differential": "Black rot canker (less pronounced callus rings), fire blight canker (usually darker, often with ooze), cytospora canker."
+  },
+  {
+    "id": "ai_gen_53",
+    "name": "Apple Proliferation",
+    "scientific": "'Candidatus Phytoplasma mali'",
+    "crop": "Apple",
+    "severity": "High",
+    "cause": "Phytoplasma",
+    "growth_stage": "All stages (systemic disease)",
+    "region": "Europe",
+    "affected_hosts": "1",
+    "symptoms": [
+      "Witches' brooms: dense clusters of weak, upright shoots developing from dormant buds",
+      "Enlarged stipules (leaf-like appendages at the base of the petiole)",
+      "Premature reddening or bronzing of leaves in late summer",
+      "Small, pale, tasteless, and often malformed fruit",
+      "Delayed bud break and leafing out in spring",
+      "Phyllody (flower parts developing into leaf-like structures)"
+    ],
+    "conditions": "Presence of infected host plants and psyllid vectors (e.g., Psylla mali); grafting with infected material.",
+    "cycle": "Phytoplasma lives in the phloem of infected apple trees. Transmitted by psyllids (main vector) and grafting. Systemic infection spreads throughout the tree. No cure for infected trees.",
+    "diagnosis": "Visual symptoms, but often confused with other issues. Lab testing (PCR or electron microscopy) is required for definitive diagnosis.",
+    "impact": "Severe yield loss (fruit quality and quantity); reduced tree vigor; eventual tree decline and death; major economic impact on apple production.",
+    "prevention": "Use certified disease-free planting material; control psyllid vectors; remove and destroy infected trees.",
+    "organic": [
+      "Biological control of psyllid vectors",
+      "Cultural practices to reduce vector populations"
+    ],
+    "chemical": [
+      "Insecticides for psyllid control (limited long-term effectiveness)",
+      "No chemical cure for infected trees"
+    ],
+    "ipm": "Key is prevention: use certified disease-free propagating material. Monitor for and control psyllid vectors. Immediately remove and destroy symptomatic trees to prevent spread to healthy trees. Practice strict sanitation during grafting and pruning. Quarantine new plant material.",
+    "geography": "Primarily found in Europe, particularly Central and Eastern Europe. Not known to be established in North America.",
+    "differential": "Nutrient deficiencies, herbicide damage, genetic mutations, other phytoplasma diseases (e.g., pear decline)."
+  }
+]
