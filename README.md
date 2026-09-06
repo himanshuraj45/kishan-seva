@@ -1,8 +1,6 @@
 ﻿## 🎥 KisanSeva Vision Trailer
 
-Watch our short concept trailer introducing the vision behind KisanSeva:
 
-[**▶️ Watch the Project Trailer (Google Drive)**](https://drive.google.com/drive/folders/1qclB5-O1ZOq3bUMS3bS9WBeXjlk6NBzK)
 
 ---
 
@@ -805,31 +803,6 @@ OPENWEATHER_API_KEY=...
 
 ---
 
-## 🎥 KisanSeva Vision Trailer
+#
 
-Watch our short concept trailer introducing the vision behind KisanSeva:
-
-[**▶️ Watch the Project Trailer (Google Drive)**](https://drive.google.com/drive/folders/1qclB5-O1ZOq3bUMS3bS9WBeXjlk6NBzK)
-
----
-
-<div align="center">
-
-**👨‍💻 Built by Limitless Prime**
-
-[![GitHub](https://img.shields.io/badge/GitHub-abhranilsingharoy--cloud-181717?style=for-the-badge&logo=github)](https://github.com/abhranilsingharoy-cloud)
-
-*Built with ❤️ for Bharat's farming community — because every farmer deserves the best technology.*
-
-<br/>
-
-**⭐ Star this repo if KisanSeva inspired you!**
-
-[![Stars](https://img.shields.io/github/stars/abhranilsingharoy-cloud/kisan_seva?style=social)](https://github.com/abhranilsingharoy-cloud/kisan_seva)
-
-`Made with 🌾 · Powered by Limitless Prime· Built for India`
-
-✨ **Contributing towards a Bikasata Bharat (Developed India)** ✨
-
-</div>
 
