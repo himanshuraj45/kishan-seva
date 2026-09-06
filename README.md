@@ -40,7 +40,7 @@
 
 <br/>
 
-[🌐 **Live Demo**](https://kisanseva-ks.vercel.app/) &nbsp;|&nbsp; [🧠 **ML Backend (Render)**](https://kisanseva-api.onrender.com/) &nbsp;|&nbsp; [📂 **GitHub**](https://github.com/abhranilsingharoy-cloud/kisan_seva) &nbsp;|&nbsp; [📋 **Report Issue**](https://github.com/abhranilsingharoy-cloud/kisan_seva/issues)
+[🌐 **Live Demo**](https://kisanseva-ks.vercel.app/) &nbsp;|&nbsp; 
 
 ✨ **Contributing towards a Bikasata Bharat (Developed India)** ✨
 
